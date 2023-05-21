@@ -10,4 +10,4 @@ A simple setup script for running a Python script on a cron job inside a docker 
 	* `docker run -d --name CONTAINER_NAME IMAGE_NAME` (including any other arguments you might need e.g. environment variables)
 	
 Ensure `src/script.py` and `src/crontab` have Unix line endings.
-
+For CRON debugging see [this post](https://stackoverflow.com/questions/22743548/cronjob-not-running)  
